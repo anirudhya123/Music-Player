@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/1c1c812611.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Teevra - Web Player</title>
+</head>
+
+<body>
+    <div class="background_opacity"></div>
+    <div class="music_player">
+        <div class="music_image"><img style="height: 100%; width:100%"
+                src="https://source.unsplash.com/300x300/?dark,evil" alt="Can't Load."></div>
+        <div class="music_part">
+            <div class="music_names">
+                <div class="music_name">Feels</div>
+                <div class="artist_name">Calvin Harris ft.Katy Perry</div>
+            </div>
+            <div class="song_timing">
+                <input type="range" min="0" max="100" value="0" name="" id="range_" onchange="duration_change()">
+            </div>
+            <div class="play_actions">
+                <div class="pre keys"><i class="fa fa-step-backward" aria-hidden="true"></i></div>
+                <div class="play_pause keys"> 
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-pause"aria-hidden="true"></i>-->
+                    </div> 
+                <div class="nxt keys"><i class="fa fa-step-forward" aria-hidden="true"></i></div>
+            </div>
+            <div class="other_options_">
+                <div class="feature refresh"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+                <div class="feature random_"><i class="fa fa-random" aria-hidden="true"></i></div>
+                <div class="feature muted"><i class="fa fa-volume-up" aria-hidden="true"></i></div>
+                <div class="feature"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <header>
+            <div class="logo_name">
+                <div class="logo_img">
+                    <img style="height:100%;width:100%" src="Gallary/analyze-music-sound-wave-icon-338791.png" alt="">
+                </div>
+                <p>Teevra</p>
+            </div>
+            <div class="menu_option" style="color: white;">
+                <i class="fa fa-home " style="font-size: 25px;" aria-hidden="true"></i>
+                <p>Home</p>
+            </div>
+            <div class="menu_option">
+                <i class="fa fa-search" style="font-size: 25px;" aria-hidden="true"></i>
+                <p>Search</p>
+            </div>
+            <div class="menu_option">
+                <i class="fa fa-file-audio-o" style="font-size: 25px;" aria-hidden="true"></i>
+                <p>Your Library</p>
+            </div>
+            <br>
+            <div class="menu_option">
+                <i class="fa fa-plus-square-o" style="font-size: 25px;" aria-hidden="true"></i>
+                <p>Create Playlist</p>
+            </div>
+            <div class="menu_option">
+                <i class="fa fa-heart-o" style="font-size: 25px; " aria-hidden="true"></i>
+                <p>Liked Songs</p>
+            </div><br><br><br><br><br><br><br><br><br><br>
+            <div class="other_options">Cookies</div>
+            <div class="other_options">Privacy</div>
+        </header>
+        <section>
+            <nav>
+                <div class="nav_options">Sign up</div>
+                <div class="nav_options"> <button class="btn-back">Log in</button></div>
+            </nav>
+            <div class="main_section">
+                <div class="container">
+                    <div class="container_header">
+                        <div class="container_title">India's Best</div>
+                        <div class="see_all">SEE ALL</div>
+                    </div>
+                    <div class="container_body">
+                        <div class="card">
+                            <div class="image"><img style="height:100%; width: 100%;"
+                                    src="https://source.unsplash.com/300x300/?dark,evil" alt=""></div>
+                            <div class="title">Death Cold Beats</div>
+                            <div class="description">Best lofi songs across world..
+                                <div class="play_btn_float">
+                                    <img style="height: 100%; width:100%"
+                                        src="Gallary/pnghut_play-button-icon-interface-circular-peach-symbol.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_contents">
+            <div class="footer_heading">PREVIEW OF TEEVRA</div>
+            <p>Try Premium free for one month. Listen to your music offline and ad-free. Monthly subscription fee
+                applies after.
+                Open only to users who haven't already tried Premium. <u> Terms and Condition applied.</u>
+            </p>
+        </div>
+        <div class="btn_side"><button class="btn-back" style="width: 80%;">Get 1 month free.</button></div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
